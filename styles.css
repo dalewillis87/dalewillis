@@ -1,0 +1,130 @@
+/*|---Colour Palet---|*/
+/*
+#333232 - Jet
+#F7B2AD - Melon
+#CEB7B3 - Dark Vanilla
+#B7B7B7 - Ash Grey
+#9ABCA7 - Cambridge Blue
+#EF233C - Red
+*/
+
+/*|---Font Families---|*/
+/*
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Satisfy', cursive;
+*/
+
+/*|---Global styles---|*/
+
+/* border box fix - apply a natural box layout model to all elements, but allowing components to change.*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* end */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Satisfy', cursive;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+a {
+  color: #EF233C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%; 
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+
+/*|---Header and Footer---|*/
+
+header, footer {
+  background: #333232;
+  color: #B7B7B7;
+}
+
+/* header */
+
+.profile-img {
+  border-radius: 50%;
+}
+
+header {
+}
+
+header h1, header h2 {
+  color: #F7B2AD;
+  margin: 0;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/*|---Work Experience---|*/
+
+.experience {
+  background: #F7B2AD;
+}
+
+/*|---Education---|*/
+
+.education {
+  background: #CEB7B3;
+}
+
+/*|---Personal Statement---|*/
+
+.history {
+  background: #B7B7B7;
+}
+
+/*|---Interests---|*/
+
+.interests {
+  background: #9ABCA7;
+}
